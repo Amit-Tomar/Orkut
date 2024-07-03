@@ -1,6 +1,6 @@
 from . import app
 from flask import render_template, flash, redirect
-from .forms import LoginForm
+from .forms.login import LoginForm
 
 @app.route('/')
 @app.route('/index')

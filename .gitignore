@@ -1,2 +1,7 @@
-**/.python-version
+.python-version
 **/venv
+.DS_Store
+**/py-venv**
+app.db
+*.pyc
+__pycache__/

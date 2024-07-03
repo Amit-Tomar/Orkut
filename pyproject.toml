@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "orkut"
+version = "0.1.0"
+description = ""
+authors = ["Amit-Tomar <amit.tomar@iiitb.org>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^3.0.3"
+Flask-SQLAlchemy = "^3.1.1"
+Flask-Migrate = "^4.0.7"
+werkzeug = "^3.0.3"
+flask-wtf = "^1.2.1"
+
+
+[tool.poetry.group.dev.dependencies]
+faker = "^26.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
