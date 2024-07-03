@@ -3,5 +3,5 @@
 .DS_Store
 **/py-venv**
 app.db
-*.pyc
-__pycache__/
+**.pyc
+**/__pycache__
